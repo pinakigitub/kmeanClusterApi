@@ -8,8 +8,6 @@ RUN apt-get update \
 RUN pip3 install --upgrade pip==9.0.3 \
     && pip3 install setuptools
 
-# for flask web server
-EXPOSE 80
 
 # set working directory
 ADD . /app
